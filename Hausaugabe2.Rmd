@@ -54,9 +54,12 @@ fit <-lm(fertig$'Book-Rating') ~ (fertig$'Anzahl')
 plot(fertig)
 abline(fit)
 ```
+Auflistung der genauen Daten der Tabelle und des Diagramms. 
 ```{r}
 summary(fit)
 ```
+Leider war es mir nicht möglich zu prüfen ob mein Ansatz richtig ist und so eine Antwort auf die Frage zu liefern, da die R-Cloud ständig abgestürzt ist. Dennoch hoffe ich, dass der Ansatz der richtige ist. 
+
 Haben ältere Bücher mehr Ratings, weil sie mehr Zeit haben, um Ratings zu sammeln?
 
 Es kommt auf den Zeitpunkt der Datenerhebeung an. Wenn die Daten früh errhoben werden dann haben ältere, bekanntere Bücher auch die Chance mehr Ratings zu produzieren. Uunbekanntere ältere Bücher müssen nicht unbedingt mehr Ratings produzieren.
