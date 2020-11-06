@@ -51,7 +51,11 @@ fit <-lm(fertig$'Book-Rating') ~ (fertig$'Anzahl')
 ```
 
 ```{r}
-
+plot(fertig)
+abline(fit)
+```
+```{r}
+summary(fit)
 ```
 Haben ältere Bücher mehr Ratings, weil sie mehr Zeit haben, um Ratings zu sammeln?
 
